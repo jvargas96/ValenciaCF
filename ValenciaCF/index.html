@@ -7,62 +7,56 @@
         <link rel="stylesheet" type="text/css" href="css/perfil.css">
     </head>
     <body>
-    <!-- pagina con resumen personal -->
+    <!-- pagina incial -->
+        
         <div data-role="page" id="info">
             <div data-role="header" data-position="fixed">
-                <h1><b>VALENCIA C.F.</b></h1>
-            </div>
+                <h1>VALENCIA C.F.</h1>
+            			</div>
            <div data-role="content">
-               <p ALIGN=center> Aquí podrás encontrar todo lo relacionado con el Valencia C.F. </p>
-           </div>
-               
-            <div>
+           <p ALIGN=center> Aquí podrás encontrar todo lo relacionado con el Valencia C.F. </p>
+               <p align=center>
+                   Para más información visita  <a href="www.valenciacf.com">Valencia C.F.</a>
+               </p>
+           		</div>
+           <div>
            <img src="imagenes/escudovalencia.jpg" alt="Valencia C.F." style="width: 100%;">
-           </div>
+           		</div>
            			<ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="e" data-count-theme="b">
-                    <li><a href="#Equipo" data-transition="pop">Equipo</a></li>
-                    <li><a href="#contacto" data-transition="pop">Contacto</a></li>
+                    <li><a href="#Equipo" data-transition="flip">Equipo</a></li>
+                    <li><a href="#Plantilla" data-transition="flip">Plantilla</a></li>
                 </ul>
             </div>
             <div data-role="footer">
-                <p align=center> Copyright 2013</p>
+                <p align=center> @jvargas96</p>
             </div>
-        </div>
     
     <!-- pagina con info Equipo -->
         <div data-role="page" id="Equipo">
-             <div data-role="header" data-position="fixed">
-                <h1>Equipo</h1>
-            </div>
-            <div data-role="content">
+            <div data-role="header" data-position="fixed">
+            <h1>EQUIPO</h1> 
+           			 </div>
+     
+            <div data-role="content">
                 <p>
-                    Las siguientes son algunas de las principales tecnolog&iacute;as, lenguajes
-                    y/o plataformas que utilizo en la
-                    actualidad para desarrollar soluciones:
+                     <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="e" data-count-theme="b">
+                    <li><a href="historia.html" data-transition="flip">Historia Equipo</a></li>
+                    <li><a href="mestalla.html" data-transition="flip">Mestalla, campo de fútbol</a></li>
+                    <li><a href="palmares.html" data-transition="flip">Títulos</a></li>
                 </p>
-                <ul>
-                    <li>PHP OOP</li>
-                    <li>CSS3</li>
-                    <li>HTML5</li>
-                    <li>JavaScript OOP</li>
-                    <li>jQuery &amp; jQuery Mobile</li>
-                    <li>Python</li>
-                    <li>MySQL Server</li>
-                    <li>Linux, Windows &amp; Android</li>
-                </ul>
-                <p class="centrado">
-                    <a href="#info" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
+               
+           <p>
+           </p>
+               
+			<a href="index.html" data-role="button" data-icon="back" data-transition="flip">Atr&aacute;s</a>
+                <div data-role="header">
+                <p align=center>@jvargas96</p>
             </div>
+
+	  <!-- pagina de Plantilla -->
+        <div data-role="page" id="Plantilla">
             <div data-role="header">
-                <p align=center>Copyright 2013</p>
-            </div>
-        </div>
-    <!-- pagina de contacto -->
-        <div data-role="page" id="contacto">
-            <div data-role="header">
-                <h1>Contacto</h1>
+                <h1>PLANTILLA</h1>
             </div>
             <div data-role="content">
                 <p>
@@ -74,9 +68,13 @@
                     data-inline="true" data-transition="turn">Atr&aacute;s</a>
                 </p>
             </div>
-            <div data-role="footer">
-                <p class="centrado">Copyright &copy; 2013</p>
-            </div>
+			<a href="index.html" data-role="button" data-icon="back" data-transition="flip">Atr&aacute;s</a>
+                <div data-role="header">
+                <p align=center>@jvargas96</p>
+            </div>  
+           </div>
+   
+
         </div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
