@@ -47,3 +47,52 @@ img{
 text-align:justify;    
 }
 
+.ui-filter-inset {
+    margin-top: 10;
+}
+
+html {
+    font-size: 20px;
+}
+.unbehaved-element {
+    font-size: 2em;
+}
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
+  .unbehaved-element {
+    font-size: 1.9em; /* Fine tune unbehaved elements */
+  }
+}
+@media(max-width: 980px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {font-size:100%}
+/* Headers */
+h1 { font-size:6.2em;font-weight:500; }
+
+<link rel="stylesheet" href="src/css/swipebox.css">
+
+@media ( min-width: 40em ) {
+	/* Show the table header rows and set all cells to display: table-cell */
+	.my-custom-breakpoint td,
+	.my-custom-breakpoint th,
+	.my-custom-breakpoint tbody th,
+	.my-custom-breakpoint tbody td,
+	.my-custom-breakpoint thead td,
+	.my-custom-breakpoint thead th {
+		display: table-cell;
+		margin: 0;
+	}
+	/* Hide the labels in each cell */
+	.my-custom-breakpoint td .ui-table-cell-label,
+	.my-custom-breakpoint th .ui-table-cell-label {
+		display: none;
+	}
+}
+
+
